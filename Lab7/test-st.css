@@ -1,0 +1,106 @@
+div{
+    margin-left: 73em;
+    margin-right: 5em;
+    margin-top: -30em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+}
+
+.right{
+    margin-left: 28px;
+}
+.right2{
+    margin-left: 375px;
+}
+.right3{
+    width: 20%;
+    margin-left: 1em;
+}
+
+input{
+    font-size: 14px;
+    line-height: 20px;
+    width: 50%;
+    height: 30px;
+    padding: 12px;
+    border: 1px solid #adadad;
+}
+
+#cvv{
+    font-size: 14px;
+    line-height: 20px;
+    width: 30%;
+    height: 20px;
+    padding: 12px;
+    border: 1px solid #adadad;
+}
+
+label{
+    color: #1d242c;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: normal;
+}
+
+select{
+    font-size: 14px;
+    line-height: 20px;
+    width: 30%;
+    height: 45px;
+    padding: 12px;
+    border: 1px solid #adadad;
+}
+
+#button{
+    width: 100%;
+    font-weight: bold;
+    background-color: #ffce00;
+    height: 40px;
+    cursor: pointer;
+}
+
+blockquote{
+    font-size: small;
+    font-style: italic;
+    margin-left: 500px;
+    margin-top: -3em;
+    width: 205px;
+    font-weight: normal;
+    line-height: 15px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: normal;
+    background-color: gray;
+    line-height: 25px;
+}
+
+fieldset{
+    background-color: white;
+    height: 47em;
+    border-width: thick;
+    border-color: darkgray;
+    padding: 1em;
+}
+
+#field2{
+    background-color: blanchedalmond;
+    height: 22em;
+    width: 33em;
+    border-style: inset;
+    border-color: lightslategray;
+}
+
+p{
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.sumfo{
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    text-align: right;
+}

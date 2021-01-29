@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title> Checkout </title>
+      <link rel="stylesheet" href="test-st.css">
+      <script src="https://kit.fontawesome.com/c4c8c6f4f6.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <h1> Payment </h1>
+    <fieldset>
+      <h2> Credit Card <i class="fas fa-credit-card"></i> </h2>
+      <hr><br>
+        <h3> Card Information </h3>
+
+      <form class="right">
+        <p><strong> New Card </strong></p>
+
+        <p> We accept the following cards: </p>
+        <img src="https://usa.visa.com/dam/VCOM/regional/lac/ENG/Default/Partner%20With%20Us/Payment%20Technology/visapos/full-color-800x450.jpg" alt="VISA" width="60" height="40">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/1200px-Mastercard-logo.svg.png" alt="Mastercard" width="60" height="40">
+        <img src="https://vignette.wikia.nocookie.net/logopedia/images/d/d7/American_express_logo_shorthand.svg/revision/latest?cb=20180430022123" alt="AMEX" width="60" height="40">
+        <br><br>
+
+
+        <label for="Credit">Credit Card Number</label><br>
+        <input type="number" id="Credit" name="Credit" placeholder="Enter Visa, Mastercard, or AMEX" required><br><br>
+    
+          <label for="exp">Expiry Month</label>
+          <label class="right2" for="exm">Expiry Year</label><br>
+          <select name="exp" id="exp" required>
+            <option value="Choose Month">Choose Month</option>
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="Decemeber">Decemeber</option>
+          </select>
+
+          <select class="right3" name="exm" id="exm" required>
+            <option value="Choose Year">Choose Year</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+            <option value="2027">2027</option>
+            <option value="2028">2028</option>
+            <option value="2029">2029</option>
+            <option value="2030">2030</option>
+            <option value="2031">2031</option>
+            <option value="2032">2032</option>
+          </select>
+          <br><br>
+
+          <label for="cvv">CVV</label><br>
+          <input type="number" id="cvv" name="cvv" placeholder="Enter 3 or 4-digit CVV " min="0" max="9999" required>
+          <blockquote><q>This 3 or 4 digit code is on the back or front of your card. </q></blockquote>
+
+
+          <div>
+            <fieldset id="field2">
+                <h2>Order Summary</h2>
+                <label>Product Subtotal</label>  <label class="sumfo" >&emsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;$32.34</label><br>
+                <label >Estimated Shipping</label>  <label class="sumfo" >&emsp;&nbsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;$4.99</label><br>
+                <label>Estimated taxes</label>  <label class="sumfo">&emsp;&nbsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;$4.85</label><br>
+
+                <hr>
+                <label >Estimated Total</label>  <label class="sumfo" >&emsp;&nbsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;$42.18</label><br>
+
+                <button id="button" type="submit"> Proceed to Checkout <i class="fas fa-shopping-cart"></i></button>
+            </fieldset><br>
+            <i class="fas fa-shipping-fast fa-3x"></i>&emsp;&emsp;
+            <i class="fas fa-gift fa-3x"></i>&emsp;&emsp;
+            <i class="fas fa-trophy fa-3x"></i>&emsp;&emsp;
+            <i class="fas fa-certificate fa-3x"></i>&emsp;&emsp;
+            <i class="fas fa-receipt fa-3x"></i>&emsp;&emsp;
+            <i class="far fa-handshake fa-3x"></i>&emsp;&emsp;
+            <i class="fas fa-donate fa-3x"></i>
+          </div>
+      </form>
+    </fieldset>
+  </body>
+</html>
